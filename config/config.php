@@ -1,9 +1,9 @@
 <?php
 $host = 'localhost';
-$user = 'puste';
-$pass = 'puste123';
+$user = 'root';
+$pass = '';
 $db   = 'orient_ressamlar';
-$conn = mysqli_connect($host,$user,$pass,$db, 3304);
+$conn = mysqli_connect($host,$user,$pass,$db);
 include 'vars.php';
 if(!$conn)
     echo "Disconnected";
