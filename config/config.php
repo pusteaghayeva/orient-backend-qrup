@@ -1,13 +1,11 @@
 <?php
+$host = 'localhost';
+$user = 'puste';
+$pass = 'puste123';
+$db   = 'orient_ressamlar';
+$conn = mysqli_connect($host,$user,$pass,$db, 3304);
+include 'vars.php';
+if(!$conn)
+    echo "Disconnected";
+?>
 
-    $username   =   'root';
-    $host       =   'localhost';
-    $password   =   '';
-    $database   =   'orient_ressamlar';
-
-    $conn       = mysqli_connect($host, $username, $password, $database,3306);
-
-    if(!$conn)
-    {
-        echo "Disconnected";
-    }

@@ -96,7 +96,7 @@
                 </a>
                 <div id="collapseSetting" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="settings.php">Siyahı</a>
+                        <a class="collapse-item" href="setting.php">Siyahı</a>
                     </div>
                 </div>
             </li>
